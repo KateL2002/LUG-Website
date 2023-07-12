@@ -2,46 +2,65 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 关于我们
 
-Let's discover **Docusaurus in less than 5 minutes**.
+浙江交通职业技术学院 Linux 用户协会（LUG @ ZJIC，以下简称：LUG）是由浙江交通职业技术学院在校的 Linux 爱好者发起并组成的一个全校性群众团体，旨在培养、提高用户对 Linux 操作系统的学习兴趣和使用能力，为广大 Linux 爱好者提供一个交流、学习、研究的平台。LUG 成员以 Linux 爱好者为核心，涵盖了计算机通信、软件工程等多个专业的学生和教师。
 
-## Getting Started
+LUG 自成立以来一直致力于推动我校 Linux 普及工作，为我校 Linux 人才培养与发展做出了自己的贡献。
 
-Get started by **creating a new site**.
+### **基本情况**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+LUG 是一个由来自不同专业、具有 Linux 学习兴趣的同学组成的学术性社团。LUG 旨在为广大 Linux 爱好者提供一个交流、学习、研究的平台，并通过组织活动，为大家提供更多的学习机会和实践机会。LUG （原云计算与信息安全社，后改名为 LUG）成立于2021年10月，目前已有成员75人。
 
-### What you'll need
+### **组织结构**
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+LUG 由理事会、会长、副会长、秘书长组成，理事会作为最高权力机构负责对协会发展方向进行决策，会长负责日常工作和活动的组织实施，副会长负责协会成员的招募与管理工作，秘书长负责协会的财务管理及会员服务工作。
 
-## Generate a new site
+### **组织活动**
 
-Generate a new Docusaurus site using the **classic template**.
+LUG 的活动形式多种多样，主要包括讲座、技术培训、技术交流会、技术论坛等。这些活动在时间上通常为1周或2周，在地点上通常在校内或校外举办， LUG 成员的参与度也很高，并已形成了一套完善的管理体系。
 
-The classic template will automatically be added to your project after you run the command:
+### **发展历程**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+LUG 成立于2021年10月，由浙江交通职业技术学院在校的 Linux 爱好者发起并组成的一个全校性群众团体，目前有成员75人。
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+LUG 最早成立于2021年10月，以 “学习新知识，学习新技术，知行合一” 作为社团宗旨，为同学们提供一个交流学习的平台。
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+LUG 拥有完备的活动体系，包括社团活动、技术讲座、社区建设等。定期组织会员进行内部培训、技术交流、学习和技术分享，定期举行会员活动；同时还建立了 LUG 钉钉群和微信群。
 
-## Start your site
+### **特色活动**
 
-Run the development server:
+LUG 定期举办线下活动，包括技术交流会、技术培训等。LUG每年组织几次线下活动，如：
 
-```bash
-cd my-website
-npm run start
-```
+#### （1）Linux 安装培训
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+​       Linux 安装培训旨在帮助参与者了解Linux操作系统的安装过程和基本配置。参与者将学习如何选择合适的Linux发行版，了解硬件和软件要求，以及掌握安装过程中可能遇到的一些常见问题和解决方法。
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+#### （2）Linux 用户技术交流会
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+​       Linux 用户技术交流会是一个Linux用户社群聚会，旨在为Linux用户提供一个互相交流和分享技术经验的平台。参与者可以分享自己在使用Linux过程中遇到的问题和解决方案，了解其他用户的经验和技巧，并且可以提出问题并得到其他用户的帮助和建议。
+
+#### （3）开源软件讲座
+
+​       开源软件讲座将介绍各种开源软件及其在不同领域中的应用。讲座内容将涵盖各种开源软件的特点、优势、使用方法和案例分析。参与者将了解到开源软件的重要性和在技术和创新方面的贡献。
+
+#### （4）Linux 教学实践
+
+​        Linux 教学实践将提供实际的Linux教学实践机会，参与者将在实验环境中进行各种Linux操作和练习。活动涵盖了Linux命令行的基础操作、用户管理、文件系统管理、网络配置等内容。参与者将通过实践加深对Linux操作系统的理解和掌握。
+
+### **LUG 每周聚会**
+
+LUG 每周聚会是一个每周定期举行的日常活动，旨在为 Linux 用户提供一个互相交流、分享和学习的平台。简要描述如下：
+
+时间和地点：每周一、周四晚上6点，于第三教学楼举行。
+
+主题和议程：每周聚会的主题和议程可能因不同情况而变化，但通常包括以下内容：
+
+- 技术分享和演示：会有一位或多位成员分享他们在Linux使用、调试、优化等方面的经验和技巧，并进行实际演示。
+- 开放讨论：参与者可以提出 Linux 相关的问题和疑惑，并与其他成员一起讨论和寻找解决方案。
+- 项目合作和合作项目介绍：成员可以分享自己的项目或者介绍新的开源软件，并邀请其他成员参与合作或提供反馈意见。
+- 社交互动和交流：除了技术讨论外，聚会也提供了一个社交互动的机会，让成员们可以交流、结识新朋友或建立更紧密的联系。
+
+参与者角色：LUG 每周聚会是一个开放的活动，任何对 Linux 感兴趣的人都可以参加，无论是新手还是有经验的用户。新手可以向其他成员请教问题，而有经验的用户则可以分享和展示自己的技术知识和经验。
+
+**需要注意：具体的活动安排和议程可能会有所变化，请及时关注通知群以及公告。**
