@@ -1,8 +1,23 @@
-# Website
+# LUG @ ZJIC 网站
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+浙江交通职业技术学院 Linux 用户协会官方网站，基于 [Docusaurus 2](https://docusaurus.io/) 框架搭建。
 
-### Installation
+本仓库内的所有文件均为源代码，所有推送至 master 分支的修改将会使用 Github Action 自动编译和部署。
+
+## 本地搭建
+
+1. 克隆此项目。
+
+2. 下载并安装 [Node.js](https://nodejs.org/en/download/) 16.14 及以上的软件，执行 `node -v` 以查看版本号。
+
+3. 进入克隆的目录，并在终端下执行下列命令以安装此框架：
+
+    ```powershell
+    $ npm init docusaurus
+    ```
+
+
+<!-- ### Installation
 
 ```
 $ yarn
@@ -38,4 +53,4 @@ Not using SSH:
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch. -->
