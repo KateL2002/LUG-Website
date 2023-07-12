@@ -6,51 +6,34 @@
 
 ## 本地搭建
 
-1. 克隆此项目。
+1. 下载并安装 [Node.js](https://nodejs.org/en/download/) 16.14 及以上的软件，执行 `node -v` 以查看版本号。
 
-2. 下载并安装 [Node.js](https://nodejs.org/en/download/) 16.14 及以上的软件，执行 `node -v` 以查看版本号。
-
-3. 进入克隆的目录，并在终端下执行下列命令以安装此框架：
+2. 打开终端，并执行下列命令以安装此框架：
 
     ```powershell
-    $ npm init docusaurus
+    $ npx create-docusaurus ./LUG-ZJIC
     ```
 
+3. 使用方向键，并按回车键选择 'Git repository'；接着再复制项目地址（**并非 git 地址**），选择 'Copy' 选项，项目将会自动克隆并下载依赖。
 
-<!-- ### Installation
+    ```powershell
+    ✔ Select a template below... › Git repository
+    ✔ Enter a repository URL from GitHub, Bitbucket, GitLab, or any other public repo.
+    (e.g: https://github.com/ownerName/repoName.git) … https://github.com/KateL2002/LUG-Website
+    ✔ How should we clone this repo? › Copy: do a shallow clone, but do not create a git repo
+    ```
 
-```
-$ yarn
-```
+4. 最后执行如下指令，即可实时预览网页。
 
-### Local Development
+    ```powershell
+    $ cd LUG-ZJIC
+    $ npm start
+    ```
+    
+## 添加/修改页面
 
-```
-$ yarn start
-```
+> 注意：在做出必要的修改或添加之前，请先Fork此项目并克隆。执行 `git clone` 命令克隆修改或添加文件。
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+添加新页面（Docs / Activities / Discover）请分别在 `docs`，`blog/activities`，`blog/discover` 中参考 `_template.md` 文件。
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch. -->
+设置文章作者请在 `blog/authors.yml` 中添加作者信息（参考已有内容），然后在页面中指定 `author: key`（可支持多个作者，示例：`author: [key1, key2, ...]` ）。
