@@ -17,10 +17,13 @@
 3. 使用方向键，并按回车键选择 'Git repository'；接着再复制项目地址（**并非 git 地址**），选择 'Copy' 选项，项目将会自动克隆并下载依赖。
 
     ```powershell
-    ✔ Select a template below... › Git repository
+    ✔ Select a template below... 
+    › Git repository
     ✔ Enter a repository URL from GitHub, Bitbucket, GitLab, or any other public repo.
-    (e.g: https://github.com/ownerName/repoName.git) … https://github.com/KateL2002/LUG-Website
-    ✔ How should we clone this repo? › Copy: do a shallow clone, but do not create a git repo
+    (e.g: https://github.com/ownerName/repoName.git) … 
+    › https://github.com/KateL2002/LUG-Website
+    ✔ How should we clone this repo? 
+    › Copy: do a shallow clone, but do not create a git repo
     ```
 
 4. 最后执行如下指令，即可实时预览网页。
