@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/wiki/intro">
+            to="/docs/about/intro">
             了解更多
           </Link>
         </div>
@@ -32,7 +32,7 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader w i k i/>
+      <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>

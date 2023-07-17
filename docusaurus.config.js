@@ -42,8 +42,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ZJVTIT/LUG-Website/tree/master',
+          // editUrl:
+          //   'https://github.com/ZJVTIT/LUG-Website/tree/master',
         },
         blog: {
           id: 'lug-blog',
@@ -53,7 +53,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ZJVTIT/LUG-Website/tree/master',
-          blogSidebarTitle: '最新消息',
+          blogSidebarTitle: '最近更新',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -81,7 +81,7 @@ const config = {
         path: './planet',
         editUrl:
             'https://github.com/ZJVTIT/LUG-Website/tree/master',
-        blogSidebarTitle: '最新消息',
+        blogSidebarTitle: '最近更新',
       },
     ],
   ],
@@ -117,41 +117,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Wiki',
+            title: '导航',
             items: [
               {
-                label: 'About us',
-                to: '/docs/intro',
+                label: '关于我们',
+                to: '/docs/about',
+              },
+              {
+                label: '联系我们',
+                to: '/docs/about/contact_us',
+              },
+              {
+                label: '加入我们',
+                to: '/docs/about/join_us',
               },
             ],
           },
+          
           {
-            title: 'Community',
+            title: '更多',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: '最新活动',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Github 入口',
+                href: 'https://github.com/ZJVTIT/LUG-Website',
               },
             ],
           },

@@ -1,10 +1,8 @@
 ---
-slug: hello-news
-title: Hello News!
+slug: update-010
+title: 网站更新日志 0.1
 authors: cat
-tags: [News, 说明]
+tags: [更新日志]
 ---
 
-# 最新消息
-
-在这里更新消息
+网站正在不断更新，敬请期待！

@@ -39,4 +39,4 @@
 
 添加新页面（Docs / Blog / Planet）请分别在 `docs`，`blog`，`planet` 中参考 `_template.md` 文件。
 
-设置文章作者请在 `blog/authors.yml` 中添加作者信息（参考已有内容），然后在页面中指定 `author: key`（可支持多个作者，示例：`author: [key1, key2, ...]` ）。
+设置文章作者请在 `authors.yml` 中添加作者信息（参考已有内容），然后在页面中指定 `author: key`（可支持多个作者，示例：`author: [key1, key2, ...]` ）。
