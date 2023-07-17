@@ -46,10 +46,12 @@ const config = {
         },
         blog: {
           showReadingTime: false,
+          path: 'planet',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ZJVTIT/LUG-Website/tree/master',
+            blogSidebarTitle: '最新发文'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,16 +69,17 @@ const config = {
         title: 'LUG @ ZJIC',
         logo: {
           alt: 'LUG @ ZJIC',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'wikiSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {type: 'docSidebar', label: 'Activities', sidebarId: 'activitiesSidebar', position: 'left'},
+          {to: '/planet/intro', label: 'Planet', position: 'left'},
           {
             href: 'https://github.com/ZJVTIT/LUG-Website',
             label: 'GitHub',
@@ -88,10 +91,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Wiki',
             items: [
               {
-                label: 'Tutorial',
+                label: 'About us',
                 to: '/docs/intro',
               },
             ],
@@ -127,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LUG @ ZJIC, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

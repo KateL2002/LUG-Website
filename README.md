@@ -21,7 +21,7 @@
     › Git repository
     ✔ Enter a repository URL from GitHub, Bitbucket, GitLab, or any other public repo.
     (e.g: https://github.com/ownerName/repoName.git) … 
-    › https://github.com/KateL2002/LUG-Website
+    › https://github.com/ZJVTIT/LUG-Website
     ✔ How should we clone this repo? 
     › Copy: do a shallow clone, but do not create a git repo
     ```
