@@ -46,18 +46,43 @@ const config = {
             'https://github.com/ZJVTIT/LUG-Website/tree/master',
         },
         blog: {
+          id: 'lug-news',
           showReadingTime: false,
           path: 'blog',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ZJVTIT/LUG-Website/tree/master',
-            blogSidebarTitle: '最新发文',
+          blogSidebarTitle: '最新消息',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'lug-planet',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'planet',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './planet',
+        editUrl:
+            'https://github.com/ZJVTIT/LUG-Website/tree/master',
+        blogSidebarTitle: '最新消息',
+      },
     ],
   ],
 
@@ -79,8 +104,8 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          {type: 'docSidebar', label: 'News', sidebarId: 'newsSidebar', position: 'left'},
-          {to: '/blog', label: 'Planet', position: 'left'},
+          {to: '/blog', label: 'News', position: 'left'},
+          {to: '/planet', label: 'Planet', position: 'left'},
           {
             href: 'https://github.com/ZJVTIT/LUG-Website',
             label: 'GitHub',
