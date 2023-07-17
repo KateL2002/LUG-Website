@@ -1,7 +1,7 @@
 ---
 slug: hello-news
 title: Hello News!
-authors: [cat]
+authors: cat
 tags: [News, 说明]
 ---
 

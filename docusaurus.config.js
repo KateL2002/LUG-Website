@@ -46,7 +46,7 @@ const config = {
             'https://github.com/ZJVTIT/LUG-Website/tree/master',
         },
         blog: {
-          id: 'lug-news',
+          id: 'lug-blog',
           showReadingTime: false,
           path: 'blog',
           // Please change this to your repo.
@@ -102,9 +102,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'wikiSidebar',
             position: 'left',
-            label: 'Wiki',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'News', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/planet', label: 'Planet', position: 'left'},
           {
             href: 'https://github.com/ZJVTIT/LUG-Website',

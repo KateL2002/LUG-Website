@@ -46,7 +46,7 @@ LUG Planet 是精神上的 **Linux 文摘** 计划的延续。我们认可这个
 
 :::tip建议
 
-我们建议你最好先 **[点击下载 Markdown 模板](blog/discover/_md.template)**，然后再进行编辑文章内容，以免出现不必要的问题。
+我们建议你最好先 **[点击下载 Markdown 模板](planet/_template)**，然后再进行编辑文章内容，以免出现不必要的问题。
 
 :::
 
