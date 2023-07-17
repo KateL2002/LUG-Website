@@ -11,6 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
+  // 在这里设置域名
   url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -46,12 +47,12 @@ const config = {
         },
         blog: {
           showReadingTime: false,
-          path: 'planet',
+          path: 'blog',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ZJVTIT/LUG-Website/tree/master',
-            blogSidebarTitle: '最新发文'
+            blogSidebarTitle: '最新发文',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -78,8 +79,8 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          {type: 'docSidebar', label: 'Activities', sidebarId: 'activitiesSidebar', position: 'left'},
-          {to: '/planet/intro', label: 'Planet', position: 'left'},
+          {type: 'docSidebar', label: 'News', sidebarId: 'newsSidebar', position: 'left'},
+          {to: '/blog', label: 'Planet', position: 'left'},
           {
             href: 'https://github.com/ZJVTIT/LUG-Website',
             label: 'GitHub',
