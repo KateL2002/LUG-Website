@@ -102,10 +102,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'wikiSidebar',
             position: 'left',
-            label: 'Docs',
+            label: '🗂️ Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/planet', label: 'Planet', position: 'left'},
+          {to: '/blog', label: '📰 Blog', position: 'left'},
+          {to: '/planet', label: '🪐 Planet', position: 'left'},
+          {
+            href: 'https://github.com/ZJVTIT/LUG-Website',
+            label: '📚 Resource',
+            position: 'left',
+          },
           {
             href: 'https://github.com/ZJVTIT/LUG-Website',
             label: 'GitHub',
@@ -121,7 +126,7 @@ const config = {
             items: [
               {
                 label: '关于我们',
-                to: '/docs/about',
+                to: '/docs/about/intro',
               },
               {
                 label: '联系我们',
